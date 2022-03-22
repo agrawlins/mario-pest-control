@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Mario Pest Control</h1>
+    <br>
+    <header id="header">Enter How Many of Each Baddie You've Caught</header>
+    <form name="pestCount" id="grid-container1">
+        <div id="goomba-pic">
+            Goomba <br>
+            <img height="40" src="Pictures/Retro-Coin-icon.png"/>5 <br>
+            <input name="goomba" type="number" id="goomba" placeholder="Goombas Caught:" required></input>
+        </div>
+        <div id="bob-omb-pic">
+            Bob-omb <br>
+            <img height="40" src="Pictures/Retro-Coin-icon.png"/>7 <br>
+            <input name="bobomb" type="number" id="bob-omb" placeholder="Bob-ombs Caught:" required></input>
+        </div>
+        <div id="cheep-cheep-pic">
+            Cheep-Cheep <br>
+            <img height="40" src="Pictures/Retro-Coin-icon.png"/>11 <br>
+            <input name="cheepcheep" type="number" id="cheep-cheep" placeholder="Cheep-Cheeps Caught:" required></input>
+        </div>
+        <button name="submit" id="submit" type="submit">Submit</button>
+    </form>
+    <div id="totalCount">Total Baddies Caught:</div>
+    <div id="totalCost">Total Cost: <img height="20" src="Pictures/Retro-Coin-icon.png"/></div>
+    <footer id="footer"><strong>Contact Us:</strong> <br>
+        Email: <mailto href="supermariobros@gmail.com">supermariobros@gmail.com</mailto> <br>
+        Site: <a href="supermariobros.com">supermariobros.com</a> <br>
+        Address: 1996 Peach Castle Rd,<br> Mushroom Kingdom, Nintendo Universe 1996
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
